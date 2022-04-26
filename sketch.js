@@ -48,9 +48,9 @@ video.position(705,0)
   }
   brain = ml5.neuralNetwork(options);
   const modelInfo = {
-    model: '3500/model.json',
-    metadata: '3500/model_meta.json',
-    weights: '3500/model.weights.bin',
+    model: '1500/model.json',
+    metadata: '1500/model_meta.json',
+    weights: '1500/model.weights.bin',
   };
   brain.load(modelInfo, brainLoaded);
   ///////
